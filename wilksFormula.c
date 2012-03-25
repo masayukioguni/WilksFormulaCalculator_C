@@ -305,7 +305,7 @@ double wilks_formula_get_men_factor(double weight) {
     if (weight  < 40.0) {
     		return 1.3354;
     }
-	if (weight  > 206) {
+	if (weight  > 205.9) {
     		return 0.5318;
     }
     if (weight >= 40.0 && weight <= 205.9) {
@@ -325,7 +325,7 @@ double wilks_formula_get_women_factor(double weight) {
     if (weight  < 40.0) {
     		return 1.4936;
     }
-	if (weight  > 151) {
+	if (weight  > 150.9) {
     		return 0.7691;
     }
 
